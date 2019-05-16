@@ -16,7 +16,13 @@ class Read{
         vector <string> name;
         vector <string> seq;
         void leer();
+        void mname();
 };
+
+
+    void Read::mname(){
+
+    };
 
 void Read::leer(){
         //Se abre el archivo
@@ -42,5 +48,5 @@ void Read::leer(){
             };
         };
         
-        file.close();
+      file.close();
     };
