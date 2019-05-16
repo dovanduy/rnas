@@ -17,11 +17,11 @@ int main(int argc, char const *argv[])
     //Se crea la clase "Read" que lee el archivo
     Read Sequences;
     Sequences.leer();
+    
 
     //Folds class
     for(int i;i<(Sequences.seq).size();i++){
     string tempm = Sequences.name[i];
-    cout<<tempm;
 	Folds* seqf= new Folds(Sequences.seq[i],tempm);
     int seqf2 = seqf->fold();
     };
