@@ -90,8 +90,6 @@ class Read{
 
             };    
         };
-        for(int i = 0; i<name.size();i++)
-        cout<<"TEST NAME: "<<name[i]<<endl;
     };
 
     //Modifica el vector "seq" uninendo las lineas de secuencias en una secuencia 
@@ -114,9 +112,7 @@ class Read{
             };
         };
         for(int i = 0; i < _seqm.size();i++){
-            cout<<_seqm[i]<< endl;
             seq.push_back(_seqm[i]);
-            cout<<"TEST:" <<seq[i]<< endl;
         };
     };
 
