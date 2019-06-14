@@ -18,7 +18,6 @@ int main(int argc, char const *argv[])
     Read Sequences;
     Sequences.leer();
     
-
     //Folds class
     for(int i;i<(Sequences.seq).size();i++){
     string tempm = Sequences.name[i];
